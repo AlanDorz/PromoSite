@@ -1,0 +1,17 @@
+@import url("reset.css");
+@import url("../fonts/fonts.css");
+
+:root {
+	--blue: #217aff;
+	--pink: #fa64c7;
+	--yellow: #ffbf1b;
+}
+
+html {
+	font-family: "gilroyregular";
+	color: white;
+}
+
+body {
+	background: var(--blue);
+}
