@@ -1,15 +1,23 @@
 @font-face {
-	font-family: "gilroyregular";
-	src: url("gilroy-regular-webfont.woff2") format("woff2"),
-		url("gilroy-regular-webfont.woff") format("woff");
+	font-family: "Gilroy-Regular";
+	src: url("Gilroy-Regular.eot");
+	src: url("Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
+		url("Gilroy-Regular.svg#Gilroy-Regular") format("svg"),
+		url("Gilroy-Regular.ttf") format("truetype"),
+		url("Gilroy-Regular.woff") format("woff"),
+		url("Gilroy-Regular.woff2") format("woff2");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "gilroysemibold";
-	src: url("gilroy-semibold-webfont.woff2") format("woff2"),
-		url("gilroy-semibold-webfont.woff") format("woff");
+	font-family: "Gilroy-SemiBold";
+	src: url("Gilroy-SemiBold.eot");
+	src: url("Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"),
+		url("Gilroy-SemiBold.svg#Gilroy-SemiBold") format("svg"),
+		url("Gilroy-SemiBold.ttf") format("truetype"),
+		url("Gilroy-SemiBold.woff") format("woff"),
+		url("Gilroy-SemiBold.woff2") format("woff2");
 	font-weight: normal;
 	font-style: normal;
 }
