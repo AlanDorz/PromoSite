@@ -375,7 +375,7 @@ img {
           justify-content: space-between;
 }
 
-@media (mix-width: 1900px) {
+@media (min-width: 1900px) {
   .header__logo--simple {
     height: 150px;
   }
@@ -396,6 +396,7 @@ img {
 .header__subname {
   font-size: 14px;
   padding-bottom: 5px;
+  z-index: 4;
 }
 
 @media (min-width: 1280px) {

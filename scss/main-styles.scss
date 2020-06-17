@@ -203,7 +203,7 @@ img {
 		flex-direction: row-reverse;
 		align-items: center;
 		justify-content: space-between;
-		@media (mix-width: 1900px) {
+		@media (min-width: 1900px) {
 			height: 150px;
 		}
 		@media (max-width: 1020px) {
@@ -220,6 +220,7 @@ img {
 		@media (min-width: 1280px) {
 			@include adaptive-font-desktop(20, 14);
 		}
+		z-index: 4;
 	}
 
 	&__subname--add {
