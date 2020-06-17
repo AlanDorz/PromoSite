@@ -203,6 +203,9 @@ img {
 		flex-direction: row-reverse;
 		align-items: center;
 		justify-content: space-between;
+		@media (mix-width: 1900px) {
+			height: 150px;
+		}
 		@media (max-width: 1020px) {
 			height: 100px;
 		}
