@@ -46,7 +46,7 @@
 							<div class="apple__clrbox apple__clrbox--yellow"></div>
 							<div class="apple__clrbox apple__clrbox--pink02"></div>
 						</div>
-						<div class="apple__img">
+						<div class="apple__img img">
 							<img src="img/apple.png" alt="Apple" />
 						</div>
 					</div>
@@ -69,19 +69,21 @@
 					</div>
 					<div class="fabric__content content">
 						<h2 class="content__title title">фабрика</h2>
-						<p class="content__text text">место,<br />где происходят чудеса</p>
+						<p class="content__text text content__text--rotate">
+							место,<br />где происходят чудеса
+						</p>
 					</div>
 					<div class="fabric__about-link about-link">
 						<a class="about-link__link">подробнее</a>
-						<div class="about-link__img">
-							<img src="" alt="Стрелочка" />
+						<div class="about-link__img img">
+							<img src="img/triangle.svg" alt="Стрелочка" />
 						</div>
 					</div>
 				</div>
 			</section>
 			<!-- TODO Technology -->
 			<section class="tech">
-				<div class="tech__container container">
+				<div class="tech__container">
 					<div class="tech__pic pic">
 						<div class="pic__yellowbox"></div>
 						<div class="pic__img img">
@@ -95,15 +97,15 @@
 						</p>
 					</div>
 					<div class="tech__pic pic tech__pic--right">
-						<div class="pic__yellowbox"></div>
-						<div class="pic__img img">
-							<img src="img/main-phone-01.png" alt="main-phone-01" />
+						<div class="pic__yellowbox--right"></div>
+						<div class="pic__img--right img">
+							<img src="img/main-phone-02.png" alt="main-phone-01" />
 						</div>
 					</div>
-					<div class="tech__about-link about-link">
+					<div class="tech__about-link about-link about-link--right">
 						<a class="about-link__link">подробнее</a>
-						<div class="about-link__img">
-							<img src="" alt="Стрелочка" />
+						<div class="about-link__img img">
+							<img src="img/triangle-yellow.svg" alt="Стрелочка" />
 						</div>
 					</div>
 				</div>
@@ -113,24 +115,24 @@
 				<div class="events__container container">
 					<div class="events__content content">
 						<h2 class="content__title title">меро-</h2>
-						<h2 class="content__title title content__title--left">приятия</h2>
+						<h2 class="title content__title--left">приятия</h2>
 						<p class="content__text text">
 							Мы демонстрируем<br />показываем, рассказываем
 						</p>
 					</div>
-					<div class="events__pic pic">
+					<div class="events__pic events__pic--01 pic">
 						<div class="pic__yellowbox"></div>
 						<div class="pic__img img">
 							<img src="img/main-poster-01.png" alt="poster" />
 						</div>
 					</div>
-					<div class="events__pic pic">
+					<div class="events__pic events__pic--02 pic">
 						<div class="pic__yellowbox"></div>
 						<div class="pic__img img">
 							<img src="img/main-poster-02.png" alt="poster" />
 						</div>
 					</div>
-					<div class="events__pic pic">
+					<div class="events__pic events__pic--03 pic">
 						<div class="pic__yellowbox"></div>
 						<div class="pic__img img">
 							<img src="img/main-poster-03.png" alt="poster" />
@@ -138,8 +140,8 @@
 					</div>
 					<div class="events__about-link about-link">
 						<a class="about-link__link">подробнее</a>
-						<div class="about-link__img">
-							<img src="" alt="Стрелочка" />
+						<div class="about-link__img img">
+							<img src="img/triangle-yellow.svg" alt="Стрелочка" />
 						</div>
 					</div>
 				</div>
@@ -155,19 +157,52 @@
 						</p>
 					</div>
 					<div class="about__pic pic">
-						<div class="pic__yellowbox"></div>
+						<div class="pic__pinkbox"></div>
 						<div class="pic__img img">
 							<img src="img/main-flag.png" alt="poster" />
 						</div>
 					</div>
 					<div class="about__about-link about-link">
 						<a class="about-link__link">подробнее</a>
-						<div class="about-link__img">
-							<img src="" alt="Стрелочка" />
+						<div class="about-link__img img">
+							<img src="img/triangle.svg" alt="Стрелочка" />
 						</div>
 					</div>
 				</div>
 			</section>
+			<footer class="footer">
+				<div class="footer__container container">
+					<nav class="footer__menu">
+						<div class="footer__name">
+							<p class="footer__subname">
+								ресторан вкусометрия
+							</p>
+						</div>
+						<ul class="footer__list--media">
+							<li>
+								<a href="#" class="footer__link">instagram</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">facebook</a>
+							</li>
+						</ul>
+						<ul class="footer__list">
+							<li>
+								<a href="#" class="footer__link">фабрика</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">технология</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">мероприятия</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">о нас</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</footer>
 		</div>
 
 		<script src="js/burger.js"></script>
