@@ -1730,6 +1730,9 @@ img {
 		-ms-grid-rows: (15vh) [5] (150px) [27];
 		grid-template-rows: repeat(5, 15vh) repeat(27, 150px);
 	}
+	.showcase__motto {
+		height: 150px;
+	}
 }
 
 @media (max-width: 1020px) {
