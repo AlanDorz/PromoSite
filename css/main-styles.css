@@ -619,6 +619,7 @@ img {
 
 .header__link--now {
   color: #217aff;
+  text-decoration: line-through;
 }
 
 /* ------------------------ Главная страница ------------------------ */
