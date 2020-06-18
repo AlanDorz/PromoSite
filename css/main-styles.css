@@ -2689,6 +2689,9 @@ img {
 	.line-3d {
 		height: 50px;
 	}
+	.posters__text--last {
+		visibility: hidden;
+	}
 }
 
 @media (max-width: 500px) {
