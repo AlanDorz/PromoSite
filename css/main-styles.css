@@ -424,6 +424,7 @@ img {
 @media (min-width: 1280px) {
 	.header__subname {
 		font-size: calc(14px + 6 * ((100vw - 1280px) / 640));
+		z-index: 10;
 	}
 }
 
