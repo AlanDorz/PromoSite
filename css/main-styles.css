@@ -2698,6 +2698,9 @@ img {
 	.line-3d {
 		height: 20px;
 	}
+	.posters__text--last {
+		visibility: visible;
+	}
 }
 
 /* ------------------------ Страница О Нас ------------------------*/
